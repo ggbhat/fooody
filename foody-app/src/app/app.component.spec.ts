@@ -1,15 +1,26 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed, async ,inject} from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { AppMaterialModule } from './material/app.material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
+import { FoodyListComponent } from './components/foody-list/foody-list.component';
+import { RatingComponent } from './components/rating/rating.component';
+import { RatingRandomizerComponent } from './components/rating-randomizer/rating-randomizer.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        AppMaterialModule,
+        HttpClientTestingModule,
+        
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        FoodyListComponent,
+        RatingComponent,RatingRandomizerComponent
       ],
     }).compileComponents();
   }));
@@ -23,13 +34,8 @@ describe('AppComponent', () => {
   it(`should have as title 'foody-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('foody-app');
+    expect(app.title).toEqual('foody');
   });
 
-  it('should render title in a h1 tag', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to foody-app!');
-  });
+ 
 });

@@ -1,0 +1,15 @@
+
+<app-rating-randomizer (randomize)="randomize($event)"></app-rating-randomizer>
+  <mat-list>
+  <mat-list-item *ngFor="let food of foods">
+    <img matListAvatar src="{{food.image}}" alt="...">
+    <h3 matLine> {{food.title}} </h3>
+    <p matLine>
+     {{food.desc}} 
+    </p>
+    <p matLine>
+      <app-rating [rating]='food.rating' [id]='food.id' (ratingClick)='ratingComponentClick($event)'></app-rating>
+     </p>
+  </mat-list-item>
+  <mat-divider></mat-divider>
+</mat-list>

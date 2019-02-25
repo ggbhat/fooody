@@ -1,0 +1,114 @@
+[
+    {
+        "id":1,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/0/0b/Dosa_and_ghee.jpg",
+        "title":"Dosa",
+        "desc":"Dosa is a type of pancake originating from the Indian subcontinent, made from a fermented batter. It is somewhat similar to a crepe in appearance. Its main ingredients are rice and black gram. Dosa is a typical part of the Southern Indian and Sri Lankan Tamil diets but is now popular all over the Indian subcontinent. Traditionally, dosa is served hot along with sambar, a stuffing of potatoes, and chutney. It can be consumed with idli podi as well.",
+        "rating":4
+    },
+    {
+        "id":2,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Idli1.jpg/300px-Idli1.jpg",
+        "title":"Idly",
+        "desc":"Idli or idly are a type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in southern India and northern Sri Lanka. The cakes are made by steaming a batter consisting of fermented black lentils (de-husked) and rice. The fermentation process breaks down the starches so that they are more readily metabolized by the body.",
+        "rating":3
+    },
+    {
+        "id":3,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/A_photo_of_Upma.jpg/375px-A_photo_of_Upma.jpg",
+        "title":"Upma",
+        "desc":"Upma, uppumavu or uppittu is a dish originating from the Indian subcontinent, most common in South Indian,[1] Maharashtrian, and Sri Lankan Tamil breakfast, cooked as a thick porridge from dry-roasted semolina or coarse rice flour.[2] Various seasonings and/or vegetables are often added during the cooking, depending on individual preferences. Today it is popular in most parts of India and is prepared in various ways.",
+        "rating":5
+    },
+    {
+        "id":4,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/India_food.jpg/330px-India_food.jpg",
+        "title":"Biriyani",
+        "desc":"Biryani also known as biriyani, biriani, birani or briyani, is a mixed rice dish that originates from the Muslims of the Indian subcontinent.[1][2][3] This dish is especially popular throughout the Indian subcontinent, as well as among the diaspora from the region. It is also prepared in other regions such as Iraqi Kurdistan.[4] It is made with Indian spices, rice, meat (chicken, goat, beef, prawn, or fish), vegetables or eggs.",
+        "rating":2
+    },
+    {
+        "id":5,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Masala Puri",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":2
+    },
+    {
+        "id":6,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Paneer butter masala",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":7,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Baby corn manchurian",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":8,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Margarita pizaa",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":9,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"French Fries",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":10,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Hot chocolate pudge",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":11,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Red velvet cookie",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":12,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Vada pav",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":13,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Payasam",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":14,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Burger",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":15,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Noodles",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    },
+    {
+        "id":16,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Still_Life_Photograph.jpg/449px-Still_Life_Photograph.jpg",
+        "title":"Popcorn",
+        "desc":"Food is any substance[1] consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.",
+        "rating":4
+    }
+]

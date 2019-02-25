@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.mat-toolbar {
+    background: #0872df;
+    color:#fff;
+}
+
+
+app-foody-list {
+    box-shadow: 1px 1px 1px 1px #ccc;
+    width: 98%;
+        margin: 1% 1%;
+        float: left;
+    
+    
+
+    & app-rating-randomizer {
+    float: right;
+    margin: 10px;
+
+    & .mat-button-toggle-checked {
+        background: #0872df;
+        color: #fff !important;
+    }
+    }
+    mat-list {
+        overflow: scroll;
+        height: 74vh;
+        width: 100%;
+        float: left;
+
+        & .mat-list-item-content {
+            border-bottom: 1px solid rgba(204, 204, 204, 0.6392156862745098);
+        }
+    }
+
+.rating {
+    float: left;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0.1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+
+
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+}
